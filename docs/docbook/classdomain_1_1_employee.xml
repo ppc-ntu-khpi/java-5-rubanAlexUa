@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_employee" xml:lang="en-US">
+<title>domain.Employee Class Reference</title>
+<indexterm><primary>domain.Employee</primary></indexterm>
+<para>Inheritance diagram for domain.Employee:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_employee.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1acdf1ef064790b74710f43b70073258cb">toString</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link> (String name, String jobTitle, int level, String dept)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aef1dfe064875bac0aa6ca06ceef8a7e3">Employee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a1adbe4e7727d1f1ee9b17f74f43dbc91">setJobTitle</link> (String job)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1aca29ead4f8daea439db8e3c7433912c6">getJobTitle</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1afbc45b17882319c6c6715cb9e8fcd398">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a4a255a3359719c86dd8578326936d1cd">setLevel</link> (int level)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_employee_1a61901a30b21afa190ad575a3a72f034b">getLevel</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1a8523ed2f81dac45801c64fdb093b67f3">getDept</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a91d1177f0185042523db10866e85bf56">setDept</link> (String dept)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a30a9ca6b75b477c8ec87f84315f97639">setName</link> (String name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The class <link linkend="_classdomain_1_1_employee">Employee</link> </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab"/><section>
+    <title>Employee()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Employee</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>Employee</secondary></indexterm>
+<para><computeroutput>domain.Employee.Employee (String name, String jobTitle, int level, String dept)</computeroutput></para>
+<para>It is a constructor.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>the name. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>jobTitle</entry><entry>
+<para>the job title. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>level</entry><entry>
+<para>the level. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>dept</entry><entry>
+<para>the dept. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1aef1dfe064875bac0aa6ca06ceef8a7e3"/><section>
+    <title>Employee()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Employee</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>Employee</secondary></indexterm>
+<para><computeroutput>domain.Employee.Employee ( )</computeroutput></para>
+<para>It is a constructor. </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_employee_1a8523ed2f81dac45801c64fdb093b67f3"/><section>
+    <title>getDept()</title>
+<indexterm><primary>getDept</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>getDept</secondary></indexterm>
+<para><computeroutput>String domain.Employee.getDept ( )</computeroutput></para>
+<para>Gets the dept</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the dept </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1aca29ead4f8daea439db8e3c7433912c6"/><section>
+    <title>getJobTitle()</title>
+<indexterm><primary>getJobTitle</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>getJobTitle</secondary></indexterm>
+<para><computeroutput>String domain.Employee.getJobTitle ( )</computeroutput></para>
+<para>Gets the job title</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the job title </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1a61901a30b21afa190ad575a3a72f034b"/><section>
+    <title>getLevel()</title>
+<indexterm><primary>getLevel</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>getLevel</secondary></indexterm>
+<para><computeroutput>int domain.Employee.getLevel ( )</computeroutput></para>
+<para>Gets the level</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the level </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1afbc45b17882319c6c6715cb9e8fcd398"/><section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String domain.Employee.getName ( )</computeroutput></para>
+<para>Gets the name</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the name </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1a91d1177f0185042523db10866e85bf56"/><section>
+    <title>setDept()</title>
+<indexterm><primary>setDept</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>setDept</secondary></indexterm>
+<para><computeroutput>void domain.Employee.setDept (String dept)</computeroutput></para>
+<para>Sets the dept</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>dept</entry><entry>
+<para>the dept. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1a1adbe4e7727d1f1ee9b17f74f43dbc91"/><section>
+    <title>setJobTitle()</title>
+<indexterm><primary>setJobTitle</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>setJobTitle</secondary></indexterm>
+<para><computeroutput>void domain.Employee.setJobTitle (String job)</computeroutput></para>
+<para>Sets the job title</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>job</entry><entry>
+<para>the job. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1a4a255a3359719c86dd8578326936d1cd"/><section>
+    <title>setLevel()</title>
+<indexterm><primary>setLevel</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>setLevel</secondary></indexterm>
+<para><computeroutput>void domain.Employee.setLevel (int level)</computeroutput></para>
+<para>Sets the level</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>level</entry><entry>
+<para>the level. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1a30a9ca6b75b477c8ec87f84315f97639"/><section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>void domain.Employee.setName (String name)</computeroutput></para>
+<para>Sets the name</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>the name. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classdomain_1_1_employee_1acdf1ef064790b74710f43b70073258cb"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>domain.Employee</secondary></indexterm>
+<indexterm><primary>domain.Employee</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String domain.Employee.toString ( )</computeroutput></para>
+<para>To string</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>String </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_artist_1acfdd6ce0dab62b9738f10b865579a633">domain.Artist</link>, <link linkend="_classdomain_1_1_editor_1a289e633270450fb447cc140a70bf54ab">domain.Editor</link>, and <link linkend="_classdomain_1_1_manager_1afcce98dc9e2c140c4cd16f4a7d437a8c">domain.Manager</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Коледж/ООП/Java/java-5-rubanAlexUa/src/domain/Employee.java</section>
+</section>
