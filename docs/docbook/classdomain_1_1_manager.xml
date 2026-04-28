@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_manager" xml:lang="en-US">
+<title>domain.Manager Class Reference</title>
+<indexterm><primary>domain.Manager</primary></indexterm>
+<para>Inheritance diagram for domain.Manager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_manager_1ac1a78da00928318e18534493c97d62b3">Manager</link> (<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] employees, String name, String jobTitle, int level, String dept)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_manager_1afcce98dc9e2c140c4cd16f4a7d437a8c">toString</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_manager_1a3497da82db5f6d11f0faf36c6c6e400a">Manager</link> (<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] employees)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_manager_1aa597af4e9a9950e9c0b9ceb64f893832">Manager</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_manager_1a1ac9a52155f131ecaf6e0c48184290e2">getEmployees</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_manager_1a91c4a87740c439452ddb235ae53bff9d">setEmployees</link> (<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] employees)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] <link linkend="_classdomain_1_1_manager_1ada1c4b1947ce477a4eb84a80927cf463">getEmployeesList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_employee">domain.Employee</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link> (String name, String jobTitle, int level, String dept)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aef1dfe064875bac0aa6ca06ceef8a7e3">Employee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a1adbe4e7727d1f1ee9b17f74f43dbc91">setJobTitle</link> (String job)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1aca29ead4f8daea439db8e3c7433912c6">getJobTitle</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1afbc45b17882319c6c6715cb9e8fcd398">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a4a255a3359719c86dd8578326936d1cd">setLevel</link> (int level)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_employee_1a61901a30b21afa190ad575a3a72f034b">getLevel</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1a8523ed2f81dac45801c64fdb093b67f3">getDept</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a91d1177f0185042523db10866e85bf56">setDept</link> (String dept)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a30a9ca6b75b477c8ec87f84315f97639">setName</link> (String name)</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para>The class <link linkend="_classdomain_1_1_manager">Manager</link> extends employee </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdomain_1_1_manager_1ac1a78da00928318e18534493c97d62b3"/><section>
+    <title>Manager()<computeroutput>[1/3]</computeroutput></title>
+<indexterm><primary>Manager</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>Manager</secondary></indexterm>
+<para><computeroutput>domain.Manager.Manager (<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] employees, String name, String jobTitle, int level, String dept)</computeroutput></para>
+<para><link linkend="_classdomain_1_1_manager">Manager</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>employees</entry><entry>
+<para>the employees. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>name</entry><entry>
+<para>the name. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>jobTitle</entry><entry>
+<para>the job title. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>level</entry><entry>
+<para>the level. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>dept</entry><entry>
+<para>the dept. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>public </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_manager_1a3497da82db5f6d11f0faf36c6c6e400a"/><section>
+    <title>Manager()<computeroutput>[2/3]</computeroutput></title>
+<indexterm><primary>Manager</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>Manager</secondary></indexterm>
+<para><computeroutput>domain.Manager.Manager (<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] employees)</computeroutput></para>
+<para><link linkend="_classdomain_1_1_manager">Manager</link></para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>employees</entry><entry>
+<para>the employees. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>public </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_manager_1aa597af4e9a9950e9c0b9ceb64f893832"/><section>
+    <title>Manager()<computeroutput>[3/3]</computeroutput></title>
+<indexterm><primary>Manager</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>Manager</secondary></indexterm>
+<para><computeroutput>domain.Manager.Manager ( )</computeroutput></para>
+<para><link linkend="_classdomain_1_1_manager">Manager</link></para>
+
+<para><formalpara><title>Returns</title>
+
+<para>public </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_manager_1a1ac9a52155f131ecaf6e0c48184290e2"/><section>
+    <title>getEmployees()</title>
+<indexterm><primary>getEmployees</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>getEmployees</secondary></indexterm>
+<para><computeroutput>String domain.Manager.getEmployees ( )</computeroutput></para>
+<para>Gets the employees</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the employees </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_manager_1ada1c4b1947ce477a4eb84a80927cf463"/><section>
+    <title>getEmployeesList()</title>
+<indexterm><primary>getEmployeesList</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>getEmployeesList</secondary></indexterm>
+<para><computeroutput><link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] domain.Manager.getEmployeesList ( )</computeroutput></para>
+<para>Gets the employees list</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>the employees list </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_classdomain_1_1_manager_1a91c4a87740c439452ddb235ae53bff9d"/><section>
+    <title>setEmployees()</title>
+<indexterm><primary>setEmployees</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>setEmployees</secondary></indexterm>
+<para><computeroutput>void domain.Manager.setEmployees (<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>[] employees)</computeroutput></para>
+<para>Sets the employees</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>employees</entry><entry>
+<para>the employees. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classdomain_1_1_manager_1afcce98dc9e2c140c4cd16f4a7d437a8c"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>domain.Manager</secondary></indexterm>
+<indexterm><primary>domain.Manager</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String domain.Manager.toString ( )</computeroutput></para>
+<para>To string</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>String </para>
+</formalpara>
+</para>
+<para>
+Reimplemented from <link linkend="_classdomain_1_1_employee_1acdf1ef064790b74710f43b70073258cb">domain.Employee</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Коледж/ООП/Java/java-5-rubanAlexUa/src/domain/Manager.java</section>
+</section>

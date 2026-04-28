@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_graphic_illustrator" xml:lang="en-US">
+<title>domain.GraphicIllustrator Class Reference</title>
+<indexterm><primary>domain.GraphicIllustrator</primary></indexterm>
+<para>Inheritance diagram for domain.GraphicIllustrator:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_graphic_illustrator.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_artist">domain.Artist</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_artist_1a366ea0daeaec32e7aedfa07fe0e68f21">Artist</link> (String[] skiils, String name, String jobTitle, int level, String dept)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_artist_1a8f866e98624339a7c567eb3f51167f45">Artist</link> (String[] skiils)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_artist_1ae4a4a1f8f7f5d5a647f9bd46a78422d3">Artist</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_artist_1acfdd6ce0dab62b9738f10b865579a633">toString</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_artist_1aaa8c4db9b1bde0da7ae964cf91f33d0d">getSkills</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_artist_1a09961b80bff71a5d3f16e02f4dd90f3d">setSkills</link> (String[] skills)</para>
+</listitem>
+            <listitem><para>String[] <link linkend="_classdomain_1_1_artist_1acf2fee5d7dd5fa8923b24569d5794e1e">getSkillsLSist</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_classdomain_1_1_employee">domain.Employee</link>        <itemizedlist>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link> (String name, String jobTitle, int level, String dept)</para>
+</listitem>
+            <listitem><para><link linkend="_classdomain_1_1_employee_1aef1dfe064875bac0aa6ca06ceef8a7e3">Employee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a1adbe4e7727d1f1ee9b17f74f43dbc91">setJobTitle</link> (String job)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1aca29ead4f8daea439db8e3c7433912c6">getJobTitle</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1afbc45b17882319c6c6715cb9e8fcd398">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a4a255a3359719c86dd8578326936d1cd">setLevel</link> (int level)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_employee_1a61901a30b21afa190ad575a3a72f034b">getLevel</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_employee_1a8523ed2f81dac45801c64fdb093b67f3">getDept</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a91d1177f0185042523db10866e85bf56">setDept</link> (String dept)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_employee_1a30a9ca6b75b477c8ec87f84315f97639">setName</link> (String name)</para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para>The class Graphic illustrator extends artist </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/Коледж/ООП/Java/java-5-rubanAlexUa/src/domain/GraphicIllustrator.java</section>
+</section>
